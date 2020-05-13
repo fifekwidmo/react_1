@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './List.scss';
 import PropTypes from 'prop-types';
 import Hero from '../Hero/Hero.js'
+import Column from '../Column/Column.js'
 
 class List extends React.Component {
     static propTypes = {
