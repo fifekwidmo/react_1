@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './App.scss';
+import {pageContents, listData} from '../../data/dataStore';
 import List from '../List/List.js'
 
 class App extends React.Component {
   render() {
     return (
       <main className={styles.component}>
-        <h1 className={styles.title}>My first React app</h1>
-        <h2 className={styles.subtitle}>My first React app</h2>
-        <List title={['Things to do', <sup key='1'>Soon!</sup>]} link={"http://uploads.kodilla.com/bootcamp/fer/11.react/space.png"}/>
+        <h1 className={styles.title}>{pageContents.title}</h1>
+    <h2 className={styles.subtitle}>{pageContents.subtitle}</h2>
+        <List {...listData}/>
       </main>
     )
   }
