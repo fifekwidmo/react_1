@@ -44,7 +44,3 @@ class Column extends React.Component {
 }
 export default Column;
 
-// rozbudowa komponentu Column (wzorując się na List), aby:
-// zapisywał zawartość właściwości cards w stanie komponentu,
-// renderował komponenty Card, w oparciu o swój stan (czyli komponentu Column)
-// posiadał również komponent Creator oraz metodę addCard przekazywaną temu komponentowi, co ma pozwalać na dodawanie kolejnych kart do stanu komponentu Column,
