@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './App.scss';
 import PropTypes from 'prop-types';
 // import {pageContents, listData} from '../../data/dataStore';
-import List from '../List/List.js';
+import List from './ListContainer.js';
 
 
 
