@@ -2,8 +2,6 @@ import shortid from 'shortid';
 
 // selectors
 export const getCardsForList = ({ cards }, columnId) => cards.filter(card => card.columnId == columnId);
-//czy zamienic listID na column Id
-
 
 // action name creator
 const reducerName = 'cards';
@@ -17,10 +15,10 @@ export const createActionAddCard = payload => ({ payload: {...payload, id: short
 
 // reducer
 export default function reducer(state = [], action = {}) {
-switch (action.type) {
+  switch (action.type) {
     case ADD_CARD:
-    return [...state, action.payload];
+      return [...state, action.payload];
     default:
-        return state;
-}
+      return state;
+  }
 }

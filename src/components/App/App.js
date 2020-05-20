@@ -1,10 +1,7 @@
 import React from 'react';
 import styles from './App.scss';
 import PropTypes from 'prop-types';
-// import {pageContents, listData} from '../../data/dataStore';
 import List from './ListContainer.js';
-
-
 
 class App extends React.Component {
   static propTypes = {

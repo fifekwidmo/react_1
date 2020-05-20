@@ -14,9 +14,4 @@ const mapDispatchToProps = (dispatch, props) => ({
   })),
 });
 
-
-
-// export const getCardsForList = ({cards}, columnId) => cards.filter(card => card.columnId == columnId);
-
-
 export default connect(mapStateToProps, mapDispatchToProps)(Column);
