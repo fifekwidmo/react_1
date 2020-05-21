@@ -37,13 +37,16 @@ class Creator extends React.Component {
       visibleButtons: false,
     });
   }
-
   render() {
-    return ( <
-      div className = {styles.component } >
-      <input type = 'text' placeholder = { this.props.text } value = {this.state.value }
-        onChange = {this.handleChange} /> <div className = {styles.buttons + (this.state.visibleButtons ? ' ' + styles.buttonsShown : '')}>
-        <Button onClick = { this.handleOK } > OK </Button> <Button onClick = {this.handleCancel } variant = 'danger'> cancel </Button> </div > </div>
+    return ( 
+      <div className = {styles.component}>      
+        <input type = 'text' placeholder = {this.props.text} value = {this.state.value}
+          onChange = {this.handleChange}/> 
+        <div className = {styles.buttons + (this.state.visibleButtons ? ' ' + styles.buttonsShown: '')}>
+          <Button onClick = {this.handleOK}> OK </Button> 
+          <Button onClick = {this.handleCancel} variant = 'danger'> cancel </Button> 
+        </div >
+      </div>
     );
   }
 }
