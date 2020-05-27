@@ -1,0 +1,13 @@
+@import '../../styles/settings.scss';
+.component {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: $color-light;
+    border: 1px solid lighten($color-dark, 60%);
+    padding: $base-size;
+    margin: 0 0 $base-size 0;
+    border-radius: $radius;
+    color: black;
+}

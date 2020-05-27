@@ -1,0 +1,14 @@
+@import '../../styles/settings.scss';
+.component {
+    background: $color-light;
+    border: 1px solid lighten($color-dark, 60%);
+    padding: 20px;
+    margin: 0 0 $base-size 0;
+    border-radius: $radius;
+    color: black;
+    text-align: center
+}
+
+.spaceBetween {
+    margin: 10px;
+}
