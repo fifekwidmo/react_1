@@ -3,7 +3,7 @@ import styles from './List.scss';
 import PropTypes from 'prop-types';
 import Hero from '../Hero/Hero.js';
 import Creator from '../Creator/Creator.js';
-import Column from '../App/ColumnContainer';
+import Column from '../Home/ColumnContainer';
 import Container from '../Container/Container';
 import {settings} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
