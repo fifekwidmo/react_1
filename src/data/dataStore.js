@@ -89,6 +89,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Things to achieve during lockdown',
+    description: 'Productive things you can do during lockdown',
+    image: 'https://images.pexels.com/photos/3951615/pexels-photo-3951615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  },
+  {
+    id: 'list-3',
+    title: 'Skills to learn in Frontend',
+    description: 'Must have skills to be a Frontend developer',
+    image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  },
 ];
 
 const columns = [
